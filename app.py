@@ -7,4 +7,4 @@ def hello():                                                               # met
     return render_template("index.html")                                                 # returns "hello world"
 
 if __name__ == "__main__":                                                 # when running python app.py
-    app.run()                                                              # run the flask appS
+    app.run(debug=True)                                                              # run the flask appS
